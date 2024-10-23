@@ -1,0 +1,10 @@
+{
+    "include": ["src"], //TS파일이 어디있는지 선언
+    "compilerOptions": {
+        "outDir": "build", //컴파일된 JS파일이 저장될 디렉터리
+        "target":"ES6", //컴파일할 JS버전
+        "lib":["ES6", "DOM"],// 코드를 실행할 환경(타겟 런타임 환경)을 설정
+        "strict": true,
+        "allowJs": true,
+    },    
+}
